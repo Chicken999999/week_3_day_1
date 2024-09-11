@@ -171,34 +171,34 @@
 
 
 ##########################################################################################
-# #addition
-print(2+2)
-# #multiplication
-print(2*2)
-# #division
-print(2/2)
-# #modulo
-print(2%2)
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2,3))
-print(min(2,3))
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2 + 10 * 10 + 3)
-# #to do more you need to import special math libraries from python
+# # #addition
+# print(2+2)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(2/2)
+# # #modulo
+# print(2%2)
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2,3))
+# print(min(2,3))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2 + 10 * 10 + 3)
+# # #to do more you need to import special math libraries from python
 from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print(floor(3.7))
-# #ceil method
-print(ceil(3.7))
-# #sqrt method
-print(sqrt(36))
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7))
+# # #ceil method
+# print(ceil(3.7))
+# # #sqrt method
+# print(sqrt(36))
 
 
 
@@ -217,16 +217,22 @@ print(sqrt(36))
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
-# input("what is your name?")
+name = input("what is your name?")
+
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int(input("Select a number"))
+num2 = int(input("Select another number"))
+
+
 # # print out a statement where you:
 # # add them together
 # #multiply
 # # find the max number
 # # find the remainder of the numbers
 # #round one number
-
+floor_number = floor(num1)
+print(f"Hello {name}, Added: {num1 + num2}, Multiplied: {num1 * num2}, Max:{max(num1, num2)}, Remainder: {num1 % num2}, First number rounded down: {floor_number}")
 
 
 

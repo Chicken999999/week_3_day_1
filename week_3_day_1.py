@@ -217,22 +217,22 @@ from math import *
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
-name = input("what is your name?")
+#name = input("what is your name?")
 
-# # basic math calculator
-# #ask the user for 2 numbers
-num1 = int(input("Select a number"))
-num2 = int(input("Select another number"))
+# # # basic math calculator
+# # #ask the user for 2 numbers
+# num1 = int(input("Select a number"))
+# num2 = int(input("Select another number"))
 
 
-# # print out a statement where you:
-# # add them together
-# #multiply
-# # find the max number
-# # find the remainder of the numbers
-# #round one number
-floor_number = floor(num1)
-print(f"Hello {name}, Added: {num1 + num2}, Multiplied: {num1 * num2}, Max:{max(num1, num2)}, Remainder: {num1 % num2}, First number rounded down: {floor_number}")
+# # # print out a statement where you:
+# # # add them together
+# # #multiply
+# # # find the max number
+# # # find the remainder of the numbers
+# # #round one number
+# floor_number = floor(num1)
+# print(f"Hello {name}, Added: {num1 + num2}, Multiplied: {num1 * num2}, Max:{max(num1, num2)}, Remainder: {num1 % num2}, First number rounded down: {floor_number}")
 
 
 
@@ -246,6 +246,11 @@ print(f"Hello {name}, Added: {num1 + num2}, Multiplied: {num1 * num2}, Max:{max(
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
+
+name = input("What is your name?")
+sold = float (input("What was your total sales?"))
+commission = float ((sold * 13) / 100)
+print(f"Hello {name}, your commision for this month based off of your sales is {commission}.")
 
 
 
